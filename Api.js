@@ -25,6 +25,7 @@ fetch('https://fakestoreapi.com/products')
               <h5 class="card-title">${element.title}</h5>
               <p class="card-text">${element.description.substring(0,50)}</p>
               <p class="card-text">${element.category}</p>
+              <p class="card-text">${element.price}</p>
               <p class="card-text">${element.rating.rate}</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
